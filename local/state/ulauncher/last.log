@@ -1,0 +1,18 @@
+2025-09-01 08:30:24,124 | INFO | Ulauncher version 6.0.0-beta23 | main.main():84
+2025-09-01 08:30:24,124 | INFO | Extension API version 3.0 | main.main():85
+2025-09-01 08:30:24,124 | INFO | GTK+ 3.24.50 | main.main():86
+2025-09-01 08:30:24,124 | INFO | PyGObject+ 3.52.3 | main.main():87
+2025-09-01 08:30:24,124 | INFO | Desktop: HYPRLAND (WAYLAND) on Arch Linux | main.main():89
+2025-09-01 08:30:24,124 | WARNING | 
+
+╔═════════════════════════════════════════════════════════════════════════════╗
+║                  YOU ARE RUNNING A PRE-RELEASE of ULAUNCHER.                ║
+║ Please do not report extension API support warnings to extension developers ║
+║ We are still in the process of developing and documenting these features    ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+
+ | main.main():91
+2025-09-01 08:30:24,128 | INFO | Layer shell: Yes | main.main():103
+2025-09-01 08:30:24,128 | INFO | X11 backend: No | main.main():113
+2025-09-01 08:30:24,237 | INFO | Migrating /home/andyfore/.config/ulauncher/ext_preferences/com.github.lighttigerxiv.ulauncher-session-manager.json to /home/andyfore/.config/ulauncher/ext_preferences/com.github.lighttigerxiv.ulauncher-session-manager.json | migrate._migrate_file():44
+2025-09-01 08:30:24,238 | INFO | Migrating /home/andyfore/.config/ulauncher/ext_preferences/com.github.hassanradwannn.ulauncher-plocate.json to /home/andyfore/.config/ulauncher/ext_preferences/com.github.hassanradwannn.ulauncher-plocate.json | migrate._migrate_file():44

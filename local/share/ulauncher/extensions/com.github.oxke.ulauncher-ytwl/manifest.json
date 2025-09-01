@@ -1,0 +1,95 @@
+{
+  "required_api_version": "2",
+  "name": "Youtube Lazy Watch Later",
+  "description": "Adds a video to a watch list without opening the video page and then you can watch the video later in mpv",
+  "developer_name": "Oxke",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "YLWL Keyword",
+      "default_value": "y"
+    },
+    {
+        "id": "search",
+        "type": "input",
+        "name": "Search for a video",
+        "default_value": "s"
+    },
+    {
+        "id": "append",
+        "type": "input",
+        "name": "Add new video to watchlist or subscribe to new channel or playlist",
+        "default_value": "a",
+        "description": "To add a playlist write after this keyword the playlist id, otherwise send the url for adding a video or subscribing to a channel"
+    },
+    {
+        "id": "remove",
+        "type": "input",
+        "name": "Remove video from watchlist or unsubscribe from channel or playlist",
+        "default_value": "r"
+    },
+    {
+        "id": "watch",
+        "type": "input",
+        "name": "Watch next video in watchlist",
+        "default_value": "w"
+    },
+    {
+        "id": "watchlist-mode",
+        "type": "select",
+        "name": "Watchlist mode",
+        "default_value": "Queue",
+        "options": [
+            "Stack",
+            "Queue",
+            "Random"
+        ]
+    },
+    {
+        "id": "getqueue",
+        "type": "input",
+        "name": "Get the last 10 videos of watchlist and choose to watch one of them",
+        "default_value": "q"
+    },
+    {
+        "id": "lastfetched",
+        "type": "input",
+        "name": "Returns the date and time of last successful fetch",
+        "default_value": "l"
+    },
+    {
+        "id": "fetch-now",
+        "type": "input",
+        "name": "Updates the watchlist with any new videos from subscriptions",
+        "default_value": "f"
+    },
+    {
+        "id": "delete-list",
+        "type" : "input",
+        "name" : "Delete the whole watchlist",
+        "default_value" : "d"
+    },
+    {
+        "id" : "thumbnail",
+        "type" : "select",
+        "name" : "Show thumbnail of video instead or thumbnail of channel",
+        "default_value" : "Video",
+        "options" : [
+            "Video",
+            "Channel"
+        ]
+    },
+    {
+        "id": "yt_apikey",
+        "type": "input",
+        "name": "Youtube API key",
+        "default_value": "",
+        "description": "can get one for free from https://console.developers.google.com/apis/credentials, remember to enable the Youtube Data API v3"
+    }
+  ]
+}

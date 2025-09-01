@@ -1,0 +1,6 @@
+2025/08/11-06:56:17.944 c1d Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/11-06:56:17.944 c1d Recovering log #4
+2025/08/11-06:56:17.944 c1d Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2025/08/12-08:04:46.080 c1d Level-0 table #8: started
+2025/08/12-08:04:46.119 c1d Level-0 table #8: 3095147 bytes OK
+2025/08/12-08:04:46.127 c1d Delete type=0 #4

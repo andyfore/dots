@@ -1,0 +1,14 @@
+2025/06/27-11:36:39.291 15e0 Creating DB /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb since it was missing.
+2025/06/27-11:36:39.297 15e0 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/27-11:36:45.531 15e2 Level-0 table #5: started
+2025/06/27-11:36:45.545 15e2 Level-0 table #5: 1152608 bytes OK
+2025/06/27-11:36:45.550 15e2 Delete type=0 #3
+2025/06/27-11:37:01.403 15e0 Level-0 table #7: started
+2025/06/27-11:37:01.425 15e0 Level-0 table #7: 1223658 bytes OK
+2025/06/27-11:37:01.430 15e0 Delete type=0 #4
+2025/06/27-11:37:01.672 15e0 Compacting 1@1 + 1@2 files
+2025/06/27-11:37:01.691 15e0 Generated table #8@1: 928 keys, 209589 bytes
+2025/06/27-11:37:01.691 15e0 Compacted 1@1 + 1@2 files => 209589 bytes
+2025/06/27-11:37:01.695 15e0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/06/27-11:37:01.696 15e0 Delete type=2 #5
+2025/06/27-11:37:01.696 15e0 Delete type=2 #7

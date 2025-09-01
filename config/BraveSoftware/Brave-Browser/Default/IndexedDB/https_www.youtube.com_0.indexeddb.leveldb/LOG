@@ -1,0 +1,15 @@
+2025/09/01-09:28:23.966 d6a Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/01-09:28:23.966 d6a Recovering log #92
+2025/09/01-09:28:23.967 d6a Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000092.log 
+2025/09/01-09:28:45.047 d7f Level-0 table #97: started
+2025/09/01-09:28:45.069 d7f Level-0 table #97: 2749289 bytes OK
+2025/09/01-09:28:45.073 d7f Delete type=0 #92
+2025/09/01-09:32:09.025 d6a Compacting 1@1 + 1@2 files
+2025/09/01-09:32:09.043 d6a Generated table #98@1: 603 keys, 87681 bytes
+2025/09/01-09:32:09.043 d6a Compacted 1@1 + 1@2 files => 87681 bytes
+2025/09/01-09:32:09.044 d6a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/01-09:32:09.045 d6a Delete type=2 #94
+2025/09/01-09:32:09.045 d6a Delete type=2 #97
+2025/09/01-14:31:57.510 d6a Level-0 table #100: started
+2025/09/01-14:31:57.527 d6a Level-0 table #100: 1904580 bytes OK
+2025/09/01-14:31:57.532 d6a Delete type=0 #96

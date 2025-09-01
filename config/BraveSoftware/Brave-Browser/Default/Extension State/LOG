@@ -1,0 +1,15 @@
+2025/09/01-08:33:02.727 d69 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2025/09/01-08:33:02.728 d69 Recovering log #16
+2025/09/01-08:33:02.738 d69 Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/Extension State/000016.log 
+2025/09/01-12:13:10.330 d69 Level-0 table #20: started
+2025/09/01-12:13:10.387 d69 Level-0 table #20: 522447 bytes OK
+2025/09/01-12:13:10.390 d69 Delete type=0 #16
+2025/09/01-12:13:10.390 d69 Compacting 4@0 + 1@1 files
+2025/09/01-12:13:10.407 d69 Generated table #21@0: 5 keys, 3499 bytes
+2025/09/01-12:13:10.407 d69 Compacted 4@0 + 1@1 files => 3499 bytes
+2025/09/01-12:13:10.408 d69 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/01-12:13:10.408 d69 Delete type=2 #8
+2025/09/01-12:13:10.408 d69 Delete type=2 #11
+2025/09/01-12:13:10.409 d69 Delete type=2 #14
+2025/09/01-12:13:10.409 d69 Delete type=2 #17
+2025/09/01-12:13:10.409 d69 Delete type=2 #20

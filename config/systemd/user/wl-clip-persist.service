@@ -1,0 +1,9 @@
+[Unit]
+Description=Persistent clipboard watcher
+
+[Service]
+ExecStart=/usr/bin/wl-clip-persist --clipboard regular
+Restart=on-failure
+
+[Install]
+WantedBy=graphical-session.target

@@ -1,0 +1,6 @@
+2025/06/29-12:38:19.064 50be Creating DB /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.seatcoversolutions.com_0.indexeddb.leveldb since it was missing.
+2025/06/29-12:38:19.071 50be Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.seatcoversolutions.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/29-12:38:27.388 50be Level-0 table #5: started
+2025/06/29-12:38:27.391 50be Level-0 table #5: 12737 bytes OK
+2025/06/29-12:38:27.395 50be Delete type=0 #3
+2025/06/29-12:38:27.395 50be Manual compaction at level-0 from (begin) .. (end); will stop at (end)

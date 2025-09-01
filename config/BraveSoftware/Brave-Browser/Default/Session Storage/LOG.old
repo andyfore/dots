@@ -1,0 +1,10 @@
+2025/09/01-00:45:53.246 4 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2025/09/01-00:45:53.247 4 Recovering log #285
+2025/09/01-00:45:53.247 4 Level-0 table #288: started
+2025/09/01-00:45:53.252 4 Level-0 table #288: 32135 bytes OK
+2025/09/01-00:45:53.252 4 Recovering log #287
+2025/09/01-00:45:53.252 4 Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000287.log 
+2025/09/01-00:45:53.255 4 Delete type=0 #285
+2025/09/01-08:27:12.925 5 Level-0 table #290: started
+2025/09/01-08:27:12.929 5 Level-0 table #290: 23283 bytes OK
+2025/09/01-08:27:12.933 5 Delete type=0 #287

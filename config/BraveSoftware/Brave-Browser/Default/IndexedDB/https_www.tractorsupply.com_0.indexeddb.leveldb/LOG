@@ -1,0 +1,8 @@
+2025/09/01-09:33:57.338 d6b Creating DB /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tractorsupply.com_0.indexeddb.leveldb since it was missing.
+2025/09/01-09:33:57.344 d6b Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tractorsupply.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/01-10:10:23.997 d6a Level-0 table #5: started
+2025/09/01-10:10:24.004 d6a Level-0 table #5: 3146619 bytes OK
+2025/09/01-10:10:24.007 d6a Delete type=0 #3
+2025/09/01-10:10:24.107 d6a Level-0 table #7: started
+2025/09/01-10:10:24.117 d6a Level-0 table #7: 2680036 bytes OK
+2025/09/01-10:10:24.120 d6a Delete type=0 #4

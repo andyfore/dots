@@ -1,0 +1,13 @@
+2025/09/01-00:45:56.822 c73 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/WebStorage/47/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/09/01-00:45:56.822 c73 Recovering log #18
+2025/09/01-00:45:56.822 c73 Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/WebStorage/47/IndexedDB/indexeddb.leveldb/000018.log 
+2025/09/01-00:45:56.842 c87 Level-0 table #22: started
+2025/09/01-00:45:56.846 c87 Level-0 table #22: 8927 bytes OK
+2025/09/01-00:45:56.849 c87 Delete type=0 #18
+2025/09/01-00:45:56.849 c72 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xa0\a9\x90yB\x00\x03\x00\x00\x00\x00\x00\x00\x08@' @ 7777 : 1
+2025/09/01-00:45:56.850 c72 Compacting 1@0 + 1@1 files
+2025/09/01-00:45:56.852 c72 Generated table #23@0: 603 keys, 5970 bytes
+2025/09/01-00:45:56.852 c72 Compacted 1@0 + 1@1 files => 5970 bytes
+2025/09/01-00:45:56.855 c72 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/01-00:45:56.855 c72 Delete type=2 #22
+2025/09/01-00:45:56.855 c72 Manual compaction at level-0 from '\x00\x06\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xa0\a9\x90yB\x00\x03\x00\x00\x00\x00\x00\x00\x08@' @ 7777 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

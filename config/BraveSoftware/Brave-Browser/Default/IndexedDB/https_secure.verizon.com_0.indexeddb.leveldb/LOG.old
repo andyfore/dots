@@ -1,0 +1,6 @@
+2025/07/03-18:23:34.699 31e1 Creating DB /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_secure.verizon.com_0.indexeddb.leveldb since it was missing.
+2025/07/03-18:23:34.705 31e1 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_secure.verizon.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/03-18:24:45.106 31e2 Level-0 table #5: started
+2025/07/03-18:24:45.110 31e2 Level-0 table #5: 1924 bytes OK
+2025/07/03-18:24:45.114 31e2 Delete type=0 #3
+2025/07/03-18:24:45.114 31e2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

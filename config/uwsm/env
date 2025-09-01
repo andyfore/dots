@@ -1,0 +1,34 @@
+# Required by many Wayland-aware apps and portals
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=Hyprland
+
+# Optional: tell apps explicitly which compositor you're using
+export XDG_SESSION_DESKTOP=Hyprland
+
+# Qt applications
+export QT_QPA_PLATFORM=wayland
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export QT_AUTO_SCREEN_SCALE_FACTOR=0
+export QT_SCALE_FACTOR=1
+
+# GTK applications (use Wayland and scale properly)
+export GDK_SCALE=1
+export GDK_DPI_SCALE=1
+# Don't force x11: GDK_BACKEND=x11 breaks many Wayland apps
+
+# SDL (for some games)
+export SDL_VIDEODRIVER=wayland
+
+# Electron / Firefox
+export OZONE_PLATFORM=wayland
+export MOZ_ENABLE_WAYLAND=1
+
+# Avoid software rendering fallbacks (especially for Chromium)
+export LIBGL_ALWAYS_SOFTWARE=0
+
+# Optional: Appends $HOME/.local/bin to PATH (if needed)
+export PATH="$HOME/.local/bin:$PATH"
+
+# Editor preference for CLI tools
+export EDITOR=nvim
+export VISUAL=nvim

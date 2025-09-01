@@ -1,0 +1,3 @@
+[default-routes]
+alsa_card.pci-0000_68_00.6:output:analog-output-speaker={"mute":false, "channelMap":["FL", "FR"], "channelVolumes":[0.091123, 0.091123], "latencyOffsetNsec":0}
+alsa_card.pci-0000_68_00.6:profile:output:analog-stereo+input:analog-stereo=["analog-output-speaker"]

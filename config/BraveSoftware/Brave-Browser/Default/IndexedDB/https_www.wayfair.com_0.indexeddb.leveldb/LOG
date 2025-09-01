@@ -1,0 +1,36 @@
+2025/08/29-17:49:38.936 5f9 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.wayfair.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/29-17:49:38.936 5f9 Recovering log #168
+2025/08/29-17:49:38.936 5f9 Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.wayfair.com_0.indexeddb.leveldb/000168.log 
+2025/08/29-17:49:38.936 5f9 Delete type=2 #167
+2025/08/29-17:55:10.595 5f9 Level-0 table #173: started
+2025/08/29-17:55:10.597 5f9 Level-0 table #173: 701 bytes OK
+2025/08/29-17:55:10.598 5f9 Delete type=0 #168
+2025/08/29-17:55:10.599 5f9 Manual compaction at level-0 from '\x000\x00\x00\x00' @ 72057594037927935 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at '\x002\x00\x00\x05' @ 914 : 1
+2025/08/29-17:55:10.599 5f9 Compacting 1@0 + 1@1 files
+2025/08/29-17:55:10.601 5f9 Generated table #174@0: 10 keys, 461 bytes
+2025/08/29-17:55:10.601 5f9 Compacted 1@0 + 1@1 files => 461 bytes
+2025/08/29-17:55:10.602 5f9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/29-17:55:10.602 5f9 Delete type=2 #173
+2025/08/29-17:55:10.603 5f9 Manual compaction at level-0 from '\x002\x00\x00\x05' @ 914 : 1 .. '\x001\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/29-17:55:12.859 5fb Level-0 table #176: started
+2025/08/29-17:55:12.861 5fb Level-0 table #176: 486 bytes OK
+2025/08/29-17:55:12.863 5fb Delete type=2 #170
+2025/08/29-17:55:12.863 5fb Delete type=0 #172
+2025/08/29-17:55:12.863 5f9 Manual compaction at level-0 from '\x001\x00\x00\x00' @ 72057594037927935 : 1 .. '\x002\x00\x00\x00' @ 0 : 0; will stop at '\x001\x00\x00\x05' @ 941 : 0
+2025/08/29-17:55:12.863 5f9 Compacting 1@0 + 1@1 files
+2025/08/29-17:55:12.865 5f9 Generated table #177@0: 7 keys, 383 bytes
+2025/08/29-17:55:12.865 5f9 Compacted 1@0 + 1@1 files => 383 bytes
+2025/08/29-17:55:12.867 5f9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/29-17:55:12.867 5f9 Delete type=2 #176
+2025/08/29-17:55:12.867 5f9 Manual compaction at level-0 from '\x001\x00\x00\x05' @ 941 : 0 .. '\x002\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/29-17:55:12.867 5f9 Level-0 table #179: started
+2025/08/29-17:55:12.869 5f9 Level-0 table #179: 484 bytes OK
+2025/08/29-17:55:12.871 5f9 Delete type=2 #174
+2025/08/29-17:55:12.871 5f9 Delete type=0 #175
+2025/08/29-17:55:12.871 5fb Manual compaction at level-0 from '\x002\x00\x00\x00' @ 72057594037927935 : 1 .. '\x003\x00\x00\x00' @ 0 : 0; will stop at '\x002\x00\x00\x05' @ 955 : 0
+2025/08/29-17:55:12.871 5fb Compacting 1@0 + 1@1 files
+2025/08/29-17:55:12.873 5fb Generated table #180@0: 4 keys, 247 bytes
+2025/08/29-17:55:12.873 5fb Compacted 1@0 + 1@1 files => 247 bytes
+2025/08/29-17:55:12.875 5fb compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/29-17:55:12.875 5fb Delete type=2 #179
+2025/08/29-17:55:12.875 5f9 Manual compaction at level-0 from '\x002\x00\x00\x05' @ 955 : 0 .. '\x003\x00\x00\x00' @ 0 : 0; will stop at (end)

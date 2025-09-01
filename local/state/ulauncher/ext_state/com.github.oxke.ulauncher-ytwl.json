@@ -1,0 +1,11 @@
+{
+  "browser_url": "https://github.com/oxke/ulauncher-ytwl",
+  "commit_hash": "bdbae502880afa37c59cc14f388bfb274eafb881",
+  "commit_time": "2025-03-24T12:49:08",
+  "error_message": "cgi",
+  "error_type": "MissingModule",
+  "id": "com.github.oxke.ulauncher-ytwl",
+  "is_enabled": true,
+  "updated_at": "2025-08-31T12:59:48.091073",
+  "url": "https://github.com/Oxke/ulauncher-ytwl"
+}

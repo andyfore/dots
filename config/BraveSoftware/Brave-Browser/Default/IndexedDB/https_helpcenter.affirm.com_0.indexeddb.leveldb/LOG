@@ -1,0 +1,7 @@
+2025/06/26-22:51:10.038 15e0 Creating DB /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_helpcenter.affirm.com_0.indexeddb.leveldb since it was missing.
+2025/06/26-22:51:10.045 15e0 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_helpcenter.affirm.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/06/26-22:51:10.689 15e2 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/06/26-22:51:56.872 15e1 Level-0 table #5: started
+2025/06/26-22:51:56.882 15e1 Level-0 table #5: 2947975 bytes OK
+2025/06/26-22:51:56.886 15e1 Delete type=0 #3
+2025/06/26-22:51:56.887 15e1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

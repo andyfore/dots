@@ -1,0 +1,12 @@
+{
+    "preferences": {
+        "desktop-environment": "other",
+        "icon": "color",
+        "other_logout": "uwsm stop"
+    },
+    "triggers": {
+        "kw": {
+            "keyword": "sm"
+        }
+    }
+}

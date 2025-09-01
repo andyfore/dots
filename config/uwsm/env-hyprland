@@ -1,0 +1,17 @@
+# explicitly sets the location of the main hyprland configuration file
+export HYPRLAND_CONFIG=$XDG_CONFIG_HOME/hypr/hyprland.conf
+
+# Preferred DRM devices (affects GPU buffer allocation for Hyprland)
+# Replace these based on your actual setup (/dev/dri/cardX)
+# card1 = dGPU (e.g. RX 7700S), card0 = APU (e.g. Radeon 780M)
+#export AQ_DRM_DEVICES=/dev/dri/card1
+
+# Force app GPU offload preference (0 = APU, 1 = dGPU)
+#export DRI_PRIME=0
+
+# Cursor size for Wayland and X11 apps
+export XCURSOR_SIZE=24
+export HYPRCURSOR_SIZE=24
+export WLR_NO_HARDWARE_CURSORS=1
+
+export ELECTRON_OZONE_PLATFORM_HINT=auto

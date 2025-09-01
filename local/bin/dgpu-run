@@ -1,0 +1,91 @@
+#!/bin/bash
+
+# ------------------------------------------------------------------------------
+# dgpu-run : Discrete GPU launcher for AMD hybrid systems
+#
+# Launches GPU-intensive apps or games using the discrete GPU (e.g., RX 7700S)
+# Applies scaling fixes for XWayland-based apps like Steam, Heroic, Lutris.
+#
+# Usage:
+#   dgpu-run <command> [args...]
+#
+# Examples:
+#   dgpu-run steam
+#   dgpu-run heroic
+#   dgpu-run lutris
+#   dgpu-run /path/to/game_binary
+#
+# Options:
+#   --help      Show this help and exit
+#   --verbose   Show environment and command before executing
+# ------------------------------------------------------------------------------
+
+show_help() {
+  grep '^#' "$0" | cut -c 4-
+}
+
+# Parse flags
+VERBOSE=0
+ARGS=()
+for arg in "$@"; do
+  case "$arg" in
+    --help)
+      show_help
+      exit 0
+      ;;
+    --verbose)
+      VERBOSE=1
+      ;;
+    *)
+      ARGS+=("$arg")
+      ;;
+  esac
+done
+
+# Make sure we have a command to run
+if [ ${#ARGS[@]} -eq 0 ]; then
+  echo "❌ Error: No command provided. Use --help for usage." >&2
+  exit 1
+fi
+
+CMD="${ARGS[0]}"
+shift || true
+
+# Set base environment for dGPU usage
+#export DRI_PRIME=1
+
+# Apply scaling/environment fixes for specific apps
+case "$CMD" in
+  steam | steam-native | steam-runtime | com.valvesoftware.Steam)
+    export GDK_BACKEND=x11
+    export SDL_VIDEODRIVER=x11
+    export STEAM_FORCE_DESKTOPUI_SCALING=1
+    export STEAM_DESKTOPUI_SCALING=1.25
+    ;;
+  heroic | Heroic)
+    export GDK_BACKEND=x11
+    export SDL_VIDEODRIVER=x11
+    export QT_AUTO_SCREEN_SCALE_FACTOR=0
+    export QT_SCALE_FACTOR=1.25
+    ;;
+  lutris | Lutris)
+    export GDK_BACKEND=x11
+    export SDL_VIDEODRIVER=x11
+    export QT_AUTO_SCREEN_SCALE_FACTOR=0
+    export QT_SCALE_FACTOR=1.25
+    ;;
+esac
+
+# Show command in verbose mode
+if [ "$VERBOSE" -eq 1 ]; then
+  echo "Launching with environment:"
+  env | grep -E 'DRI_PRIME|GDK|QT|SDL|STEAM'
+  echo
+  echo "Command: $CMD ${ARGS[*]:1}"
+  echo
+fi
+
+# Launch the app using GameMode
+#exec gamemoderun "$CMD" "${ARGS[@]:1}"
+exec "$CMD" "${ARGS[@]:1}"
+

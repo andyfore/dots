@@ -1,0 +1,39 @@
+2025/09/01-08:33:02.431 4 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2025/09/01-08:33:02.432 4 Recovering log #289
+2025/09/01-08:33:02.433 4 Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000289.log 
+2025/09/01-08:33:02.433 5 Compacting 4@0 + 1@1 files
+2025/09/01-08:33:02.446 5 Generated table #292@0: 7310 keys, 146057 bytes
+2025/09/01-08:33:02.446 5 Compacted 4@0 + 1@1 files => 146057 bytes
+2025/09/01-08:33:02.449 5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/01-08:33:02.450 5 Delete type=2 #282
+2025/09/01-08:33:02.450 5 Delete type=2 #284
+2025/09/01-08:33:02.450 5 Delete type=2 #286
+2025/09/01-08:33:02.450 5 Delete type=2 #288
+2025/09/01-08:33:02.450 5 Delete type=2 #290
+2025/09/01-10:00:54.043 4 Level-0 table #294: started
+2025/09/01-10:00:54.047 4 Level-0 table #294: 27617 bytes OK
+2025/09/01-10:00:54.053 4 Delete type=0 #289
+2025/09/01-10:13:43.499 5 Level-0 table #296: started
+2025/09/01-10:13:43.510 5 Level-0 table #296: 26782 bytes OK
+2025/09/01-10:13:43.514 5 Delete type=0 #293
+2025/09/01-10:17:04.565 4 Level-0 table #298: started
+2025/09/01-10:17:04.572 4 Level-0 table #298: 25391 bytes OK
+2025/09/01-10:17:04.576 4 Delete type=0 #295
+2025/09/01-10:28:32.028 4 Level-0 table #300: started
+2025/09/01-10:28:32.040 4 Level-0 table #300: 22596 bytes OK
+2025/09/01-10:28:32.045 4 Delete type=0 #297
+2025/09/01-10:28:32.046 4 Compacting 4@0 + 1@1 files
+2025/09/01-10:28:32.054 4 Generated table #301@0: 7592 keys, 191091 bytes
+2025/09/01-10:28:32.055 4 Compacted 4@0 + 1@1 files => 191091 bytes
+2025/09/01-10:28:32.057 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/01-10:28:32.059 4 Delete type=2 #292
+2025/09/01-10:28:32.059 4 Delete type=2 #294
+2025/09/01-10:28:32.059 4 Delete type=2 #296
+2025/09/01-10:28:32.059 4 Delete type=2 #298
+2025/09/01-10:28:32.059 4 Delete type=2 #300
+2025/09/01-12:26:02.254 5 Level-0 table #303: started
+2025/09/01-12:26:02.257 5 Level-0 table #303: 34610 bytes OK
+2025/09/01-12:26:02.260 5 Delete type=0 #299
+2025/09/01-15:58:46.062 5 Level-0 table #305: started
+2025/09/01-15:58:46.071 5 Level-0 table #305: 40862 bytes OK
+2025/09/01-15:58:46.076 5 Delete type=0 #302

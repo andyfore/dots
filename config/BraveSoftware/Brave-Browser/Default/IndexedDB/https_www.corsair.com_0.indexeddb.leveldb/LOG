@@ -1,0 +1,6 @@
+2025/08/05-14:22:55.472 694 Creating DB /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.corsair.com_0.indexeddb.leveldb since it was missing.
+2025/08/05-14:22:55.484 694 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.corsair.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/05-14:24:23.515 693 Level-0 table #5: started
+2025/08/05-14:24:23.518 693 Level-0 table #5: 30178 bytes OK
+2025/08/05-14:24:23.524 693 Delete type=0 #3
+2025/08/05-14:24:23.525 693 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

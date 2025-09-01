@@ -1,0 +1,26 @@
+{
+  "required_api_version": "2",
+  "name": "plocate finder",
+  "description": "Quickly find files on your system using the plocate command with fast indexing.",
+  "developer_name": "hassanradwannn",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.5
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "search files",
+      "description": "keyword to activate this plugin",
+      "default_value": "s"
+    },
+    {
+      "id": "limit",
+      "type": "input",
+      "name": "maximum number of result",
+      "description": "result will be truncate to the maximum number",
+      "default_value": "8"
+    }
+  ]
+}

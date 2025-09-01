@@ -1,0 +1,15 @@
+2025/08/31-23:07:06.199 3ccd Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_devicebind.ebay.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/08/31-23:07:06.199 3ccd Recovering log #4
+2025/08/31-23:07:06.199 3ccd Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_devicebind.ebay.com_0.indexeddb.leveldb/000004.log 
+2025/08/31-23:07:08.386 3cce Level-0 table #8: started
+2025/08/31-23:07:08.388 3cce Level-0 table #8: 209 bytes OK
+2025/08/31-23:07:08.389 3cce Delete type=0 #4
+2025/08/31-23:07:08.389 3cce Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/08/31-23:07:08.390 3cce Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 76 : 1
+2025/08/31-23:07:08.390 3cce Compacting 1@1 + 1@2 files
+2025/08/31-23:07:08.391 3cce Generated table #9@1: 27 keys, 629 bytes
+2025/08/31-23:07:08.392 3cce Compacted 1@1 + 1@2 files => 629 bytes
+2025/08/31-23:07:08.394 3cce compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/08/31-23:07:08.394 3cce Delete type=2 #5
+2025/08/31-23:07:08.394 3cce Delete type=2 #8
+2025/08/31-23:07:08.394 3cce Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 76 : 1 .. (end); will stop at (end)

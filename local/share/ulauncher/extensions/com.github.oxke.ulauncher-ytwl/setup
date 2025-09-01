@@ -1,0 +1,26 @@
+here=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+user=$(whoami)
+
+sysconfig=/home/$user/.config/systemd
+if [ ! -d "$sysconfig/user" ]; then
+  if [ ! -d "$sysconfig" ]; then
+    mkdir $sysconfig
+  fi
+  mkdir $sysconfig/user
+fi
+
+config=/home/$user/.config/ulauncher/com.github.oxke.ulauncher-ytwl
+
+echo "sh -c \"/usr/bin/python3 $here/fp.py >> $config/fp.log\"" >> $here/ytfp.sh
+echo "ExecStart=/bin/bash $sysconfig/user/ytfp.sh" >> $here/ytfp.service
+sudo cp $here/ytfp.* /home/$user/.config/systemd/user/
+
+systemctl --user enable ytfp.timer
+
+mkdir $config
+touch $config/subscriptions
+touch $config/watchlist
+touch $config/fp.log
+mv $here/lastfetched_ytfp $config/lastfetched_ytfp
+
+pip install -r $here/requirements.txt --user

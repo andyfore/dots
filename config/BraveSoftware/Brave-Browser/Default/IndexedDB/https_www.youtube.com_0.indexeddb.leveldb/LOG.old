@@ -1,0 +1,21 @@
+2025/09/01-00:46:02.890 c71 Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/09/01-00:46:02.890 c71 Recovering log #85
+2025/09/01-00:46:02.895 c71 Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000085.log 
+2025/09/01-00:46:08.014 c72 Level-0 table #90: started
+2025/09/01-00:46:08.031 c72 Level-0 table #90: 1817609 bytes OK
+2025/09/01-00:46:08.034 c72 Delete type=0 #85
+2025/09/01-00:46:08.066 c72 Compacting 1@1 + 1@2 files
+2025/09/01-00:46:08.076 c72 Generated table #91@1: 571 keys, 258382 bytes
+2025/09/01-00:46:08.077 c72 Compacted 1@1 + 1@2 files => 258382 bytes
+2025/09/01-00:46:08.080 c72 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/01-00:46:08.081 c72 Delete type=2 #87
+2025/09/01-00:46:08.081 c72 Delete type=2 #90
+2025/09/01-00:49:23.879 c72 Level-0 table #93: started
+2025/09/01-00:49:23.940 c72 Level-0 table #93: 2567752 bytes OK
+2025/09/01-00:49:23.944 c72 Delete type=0 #89
+2025/09/01-08:27:12.220 c72 Compacting 1@1 + 1@2 files
+2025/09/01-08:27:12.234 c72 Generated table #94@1: 557 keys, 39370 bytes
+2025/09/01-08:27:12.234 c72 Compacted 1@1 + 1@2 files => 39370 bytes
+2025/09/01-08:27:12.235 c72 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/01-08:27:12.236 c72 Delete type=2 #91
+2025/09/01-08:27:12.236 c72 Delete type=2 #93

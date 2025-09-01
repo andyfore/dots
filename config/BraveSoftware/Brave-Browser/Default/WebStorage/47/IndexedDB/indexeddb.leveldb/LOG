@@ -1,0 +1,24 @@
+2025/09/01-08:33:07.603 d6b Reusing MANIFEST /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/WebStorage/47/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/09/01-08:33:07.603 d6b Recovering log #21
+2025/09/01-08:33:07.604 d6b Reusing old log /home/andyfore/.config/BraveSoftware/Brave-Browser/Default/WebStorage/47/IndexedDB/indexeddb.leveldb/000021.log 
+2025/09/01-08:33:07.604 d6b Delete type=2 #19
+2025/09/01-08:33:07.626 d6b Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/09/01-14:45:16.947 d6a Level-0 table #26: started
+2025/09/01-14:45:16.951 d6a Level-0 table #26: 315828 bytes OK
+2025/09/01-14:45:16.953 d6a Delete type=0 #21
+2025/09/01-14:45:16.953 d6a Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x08\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x10V\xf5a\x90yB\x00\x03\x00\x00\x00\x00\x00\x00(@' @ 9262 : 1
+2025/09/01-14:45:16.953 d6a Compacting 1@0 + 1@1 files
+2025/09/01-14:45:16.957 d6a Generated table #27@0: 774 keys, 22622 bytes
+2025/09/01-14:45:16.957 d6a Compacted 1@0 + 1@1 files => 22622 bytes
+2025/09/01-14:45:16.959 d6a compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/09/01-14:45:16.959 d6a Delete type=2 #23
+2025/09/01-14:45:16.959 d6a Delete type=2 #26
+2025/09/01-14:45:16.959 d6a Manual compaction at level-0 from '\x00\x08\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x10V\xf5a\x90yB\x00\x03\x00\x00\x00\x00\x00\x00(@' @ 9262 : 1 .. (end); will stop at (end)
+2025/09/01-14:45:16.959 d6a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x10V\xf5a\x90yB\x00\x03\x00\x00\x00\x00\x00\x00(@' @ 9323 : 1
+2025/09/01-14:45:16.959 d6a Compacting 1@1 + 1@2 files
+2025/09/01-14:45:16.963 d6a Generated table #28@1: 102 keys, 16687 bytes
+2025/09/01-14:45:16.963 d6a Compacted 1@1 + 1@2 files => 16687 bytes
+2025/09/01-14:45:16.965 d6a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/09/01-14:45:16.965 d6a Delete type=2 #16
+2025/09/01-14:45:16.965 d6a Delete type=2 #27
+2025/09/01-14:45:16.965 d6a Manual compaction at level-1 from '\x00\x08\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\x10V\xf5a\x90yB\x00\x03\x00\x00\x00\x00\x00\x00(@' @ 9323 : 1 .. (end); will stop at (end)
