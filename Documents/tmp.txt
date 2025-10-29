@@ -1,0 +1,18 @@
+2025-08-17 18:17:31 sudo history >> tmp.txt
+2025-08-17 18:10:16 reboot
+2025-08-17 18:08:15 sudo history >> /mnt/currenty/hyprland.sh
+2025-08-17 18:08:11 history >> /mnt/currenty/hyprland.sh
+2025-08-17 18:07:48 sudo mount /dev/sdb2 /mnt
+2025-08-17 18:07:44 sudo mount /dev/sda2 /mnt
+2025-08-17 18:07:34 sudo lsblk
+2025-08-17 18:07:25 umount /dev/sda1
+2025-08-17 18:07:23 umount /dev/sda2
+2025-08-17 18:06:52 sudo mount /dev/sda1 /mnt
+2025-08-17 18:06:44 cd
+2025-08-17 18:06:15 ls
+2025-08-17 18:06:14 ks
+2025-08-17 18:06:13 cd /mnt
+2025-08-17 17:56:44 history
+2025-08-17 17:37:03 rm .zshrc
+2025-08-17 17:34:45 mkdir -p ~/.local/{bin,share/applications,share/themes,share/icons,share/wallpapers,share/fonts}
+2025-08-17 17:33:52 mkdir -p ~/.config/{hypr,waybar,waypaper,alacritty}

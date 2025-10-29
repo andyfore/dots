@@ -1,0 +1,125 @@
+{"formatVersion":"1.0.0","name":"Scratch","cursors":{"ranges":[{"anchor":4290,"head":4290}],"main":0}}
+∞∞∞text
+Welcome to Heynote! 👋
+
+Ctrl + Enter           Add new block below the current block
+Alt + Enter            Add new block before the current block
+Ctrl + Shift + Enter   Add new block at the end of the buffer
+Alt + Shift + Enter    Add new block at the start of the buffer
+Ctrl + Alt + Enter     Split the current block at cursor position
+Ctrl + L               Change block language
+Ctrl + N               Create a new note buffer
+Ctrl + S               Move the current block to another (or new) buffer
+Ctrl + P               Open note selector
+Ctrl + Down            Goto next block
+Ctrl + Up              Goto previous block
+Ctrl + A               Select all text in a note block. Press again to select the whole buffer
+Ctrl + Alt + Up/Down   Add additional cursor above/below
+Alt + Shift + F        Format block content (works for JSON, JavaScript, HTML, CSS and Markdown)
+Alt                    Show menu
+∞∞∞markdown
+Read full documentation at https://heynote.com/docs
+∞∞∞math
+This is a Math block. Here, rows are evaluated as math expressions. 
+
+radius = 5
+area = radius^2 * PI
+sqrt(9)
+
+It also supports some basic unit conversions, including currencies:
+
+13 inches in cm
+time = 3900 seconds to minutes
+time * 2
+
+1 EUR in USD
+∞∞∞markdown
+In Markdown blocks, lists with [x] and [ ] are rendered as checkboxes:
+
+- [x] Download Heynote
+- [ ] Try out Heynote
+∞∞∞shell-a
+sudo virt-install \
+  --name talos-wk02 \
+  --ram 2048 \
+  --vcpus 2 \
+  --os-variant generic \
+  --disk path=/var/lib/libvirt/images/talos-wk02.qcow2,size=8,bus=virtio \
+  --cdrom /var/lib/libvirt/images/talos.iso \
+  --network bridge=br-k8s,model=virtio,mac=0a:4f:28:29:61:06 \
+  --graphics none \
+  --console pty,target_type=serial \
+  --noautoconsole \
+  --noreboot
+
+
+wget https://github.com/siderolabs/talos/releases/latest/download/metal-amd64.iso -O /var/lib/libvirt/images/talos.iso
+
+
+cp01
+0a:2f:bb:9c:38:e0
+10.0.80.10
+
+cp02
+1e:fe:b8:5e:21:27
+10.0.80.11
+
+wk01
+3e:07:a2:cc:09:49
+10.0.80.20
+
+wk02
+0a:4f:28:29:61:06
+10.0.80.21
+
+∞∞∞shell-a
+| Range                | Purpose                        | Example IPs           |
+|----------------------|--------------------------------|------------------------|
+| `10.0.80.1`          | Gateway (MikroTik router)      |                        |
+| `10.0.80.2`          | Host (`br-k8s`) IP             | ✅ Already configured  |
+| `10.0.80.3–9`        | Reserved for infra (DNS, NTP)  |                        |
+| `10.0.80.10–19`      | Talos controller nodes         | e.g. `10.0.80.10`      |
+| `10.0.80.20–39`      | Talos worker nodes             | e.g. `10.0.80.20`      |
+| `10.0.80.40–59`      | VIPs / Ingress Gateway         | e.g. `10.0.80.50`      |
+| `10.0.80.60–99`      | MetalLB LoadBalancer pool      | e.g. `10.0.80.60–80`   |
+| `10.0.80.100–199`    | DHCP for VMs/test nodes        | e.g. `10.0.80.101`     |
+| `10.0.80.200–254`    | Floating/future                |                        |
+
+| Role           | Hostname         | IP Address     |
+|----------------|------------------|----------------|
+| Talos Controller 1 | `talos-cp01` | `10.0.80.10`   |
+| Talos Worker 1     | `talos-wk01` | `10.0.80.20`   |
+| Talos Worker 2     | `talos-wk02` | `10.0.80.21`   |
+| MetalLB Pool       | `-`          | `10.0.80.60–80`|
+| Ingress VIP        | `-`          | `10.0.80.50`   |
+
+| Role           | IP Address     | MAC Address        |
+|----------------|----------------|--------------------|
+| talos-cp01     | 10.0.80.10     | `52:54:00:00:80:10` |
+| talos-wk01     | 10.0.80.20     | `52:54:00:00:80:20` |
+| talos-wk02     | 10.0.80.21     | `52:54:00:00:80:21` |
+
+
+sudo virt-install \
+  --name test-alpine \
+  --ram 2048 \
+  --vcpus 2 \
+  --osinfo alpinelinux3.18 \
+  --disk path=/var/lib/libvirt/images/alpine-test.qcow2,size=8,bus=virtio \
+  --cdrom /var/lib/libvirt/images/alpine.iso \
+  --network bridge=br-k8s,model=virtio \
+  --graphics none \
+  --console pty,target_type=serial
+
+
+sudo virt-install \
+  --name talos-cp01 \
+  --ram 2048 \
+  --vcpus 2 \
+  --os-variant generic \
+  --disk path=/var/lib/libvirt/images/talos-cp01.qcow2,size=8,bus=virtio \
+  --cdrom /var/lib/libvirt/images/talos.iso \
+  --network bridge=br-k8s,model=virtio,mac=0a:2f:bb:9c:38:e0 \
+  --graphics none \
+  --console pty,target_type=serial \
+  --noautoconsole

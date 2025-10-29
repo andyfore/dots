@@ -1,0 +1,16 @@
+https://rudimartinsen.com/2022/01/05/nginx-nfs-kubernetes/#test-mount-from-container
+https://github.com/Nurmukhamed/talos-cilium-metallb
+https://www.reddit.com/r/kubernetes/comments/1duqpi6/run_your_kubernetes_cluster_on_bare_metal_with/
+https://itnext.io/run-your-kubernetes-cluster-on-bare-metal-with-cilium-cni-part-1-e88028800d90
+https://devtron.ai/
+https://github.com/devtron-labs/devtron/
+https://www.sharpwriting.net/project/configuring-wezterm/https://jfrog.com/community/cloud-native/argocd-protect-clusters-from-unintended-deletion/
+https://medium.com/@veerababu.narni232/a-complete-overview-of-argocd-with-a-practical-example-f4a9a8488cf9
+https://spot.io/resources/ci-cd/ci-cd-with-jenkins-a-gentle-introduction/
+https://codefresh.io/product/gitops/?utm_source=google&utm_medium=paid-search&utm_campaign=Leads_Search_Common_Keywords_Max_Conv_EN&utm_content=argodeployment&utm_term=argocd&gad_source=1
+https://www.youtube.com/watch?v=5zFA5piXf8Q
+https://www.youtube.com/watch?v=_8M3Y90hHWg
+
+https://www.reddit.com/r/hyprland/comments/1bywsan/how_to_properly_setup_hyprland_for_gaming/
+
+https://www.reddit.com/r/hyprland/comments/1ifoiqq/a_gaming_script_for_all/
